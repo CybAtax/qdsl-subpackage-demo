@@ -49,7 +49,7 @@ compileJava {
 	options.compilerArgs += [
 	        '-processor',
 			'org.springframework.data.mongodb.repository.support.MongoAnnotationProcessor',
-			'-Aquerydsl.packageSuffix=.qdsl'
+//			'-Aquerydsl.packageSuffix=.qdsl'
 	]
 }
 

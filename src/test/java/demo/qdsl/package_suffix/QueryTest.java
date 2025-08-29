@@ -2,7 +2,7 @@ package demo.qdsl.package_suffix;
 
 import com.querydsl.core.types.Predicate;
 import com.querydsl.core.types.dsl.BooleanExpression;
-import demo.qdsl.package_suffix.qdsl.QEntity;
+import demo.qdsl.package_suffix.QEntity;
 import org.bson.types.ObjectId;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
