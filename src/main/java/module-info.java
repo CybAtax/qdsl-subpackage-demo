@@ -11,4 +11,6 @@ module demo.qdsl.suffix {
     requires spring.context;
     requires spring.data.commons;
     requires spring.data.mongodb;
+    requires spring.beans;
+    requires jakarta.annotation;
 }
