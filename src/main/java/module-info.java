@@ -13,4 +13,6 @@ module demo.qdsl.suffix {
     requires spring.data.mongodb;
     requires spring.beans;
     requires jakarta.annotation;
+    requires org.mongodb.bson;
+    requires org.jspecify;
 }

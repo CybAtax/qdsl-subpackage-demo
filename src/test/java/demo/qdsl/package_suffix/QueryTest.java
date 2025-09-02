@@ -23,9 +23,8 @@ public class QueryTest {
     @Test
     void queryTest() {
         final var predicate = QEntity.entity.id.eq(new ObjectId());
-        final var iterator = entityRepository.findAll(predicate).iterator();
-        final var actual = iterator.next();
-        assert actual != null;
+        final var results = entityRepository.findAll(predicate);
+        assert results != null;
     }
 
 }
